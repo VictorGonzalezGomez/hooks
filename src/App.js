@@ -7,13 +7,13 @@ import "bootstrap/dist/css/bootstrap.min.css"
 
 
 function App() {
-  const [userName, setUserName]= useState('')
+  const [userName, setUser]= useState('')
   const [userPassword, setPassword]=useState('')
 
   return (
     <div className="App">
       <Header/>
-      <InputUser user={userName} setUser={setUserName} setPassword={setPassword} password={userPassword} />
+      <InputUser user={userName} setUser={setUser} setPassword={setPassword} password={userPassword} />
     </div>
   );
 }
